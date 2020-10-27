@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+}
+
+.landing-page {
+  padding: 0;
+}
+.landing-page .login {
+  background: url(../images/background-1.jpg) no-repeat;
+  background-size: cover;
+}
+.landing-page .login .wrapper {
+  padding: 100px 100px 100px 80px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.landing-page .login .wrapper .btn-custom {
+  background: #48146d;
+  color: white;
+  font-weight: 500px;
+}
+.landing-page .login .wrapper .btn-custom:hover {
+  background: #8a35c7;
+  transition: all 0.5s;
+}
+.landing-page .login .wrapper .detail-info {
+  color: white;
+}
+.landing-page .login .wrapper .detail-info h1 {
+  padding-right: 100px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  text-shadow: 4px 5px 3px black;
+}
+.landing-page .login .wrapper .detail-info p {
+  line-height: 2;
+  margin-bottom: 20px;
+}
+.landing-page .login .wrapper .model-form {
+  background: white;
+  padding: 40px;
+  border-radius: 5px;
+}
+.landing-page .benefit-scholarship .title p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.landing-page .benefit-scholarship .row .benefit-box > p {
+  color: #91a2a5;
+}
+.landing-page .benefit-scholarship .row .benefit-box:hover {
+  background: #242f32;
+  color: white;
+  transition: all 1s;
+}
+.landing-page .scholarship-info .title > p {
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.landing-page .scholarship-info .title > p span {
+  color: #8a35c7;
+}
+.landing-page .scholarship-info .list-info {
+  padding: 0 40px;
+}
+.landing-page .scholarship-info .list-info .title-num {
+  color: #8a35c7;
+}
+
+@media screen and (max-width: 1024px) {
+  .landing-page .login .wrapper {
+    padding: 100px 40px 100px 35px;
+  }
+
+  .landing-page .login .wrapper .detail-info h1 {
+    padding-right: 60px;
+  }
+
+  .landing-page .login .wrapper .detail-info p {
+    padding-right: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .landing-page .login .wrapper .detail-info {
+    margin-bottom: 50px;
+  }
+
+  .benefit-scholarship, .scholarship-info {
+    padding: 0 90px;
+  }
+
+  .landing-page .scholarship-info .list-info {
+    padding: 0px 45px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .benefit-scholarship, .scholarship-info {
+    padding: 0 20px;
+  }
+
+  .landing-page .login .wrapper .detail-info h1 {
+    padding: 0 !important;
+  }
+  .landing-page .login .wrapper .detail-info p {
+    padding: 0 !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .landing-page .scholarship-info .list-info {
+    padding: 0 10px !important;
+  }
+
+  .benefit-scholarship .benefit-box {
+    padding: 10px !important;
+  }
+}
+
+/*# sourceMappingURL=style-landing-page.css.map */
